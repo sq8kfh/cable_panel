@@ -1,0 +1,879 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:kfhlib
+LIBS:switches
+LIBS:cable_panel-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "cable panel"
+Date "2019-05-04"
+Rev "1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X04 J2
+U 1 1 5CCD316B
+P 2350 3700
+F 0 "J2" H 2350 3950 50  0000 C CNN
+F 1 "CAN0" V 2450 3700 50  0000 C CNN
+F 2 "kfhlib:PCB-PLUS" H 2350 3700 50  0001 C CNN
+F 3 "" H 2350 3700 50  0001 C CNN
+	1    2350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 J3
+U 1 1 5CCD31FC
+P 3750 3700
+F 0 "J3" H 3750 3950 50  0000 C CNN
+F 1 "CAN1" V 3850 3700 50  0000 C CNN
+F 2 "kfhlib:PCB-PLUS" H 3750 3700 50  0001 C CNN
+F 3 "" H 3750 3700 50  0001 C CNN
+	1    3750 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 J4
+U 1 1 5CCD3219
+P 5150 3700
+F 0 "J4" H 5150 3950 50  0000 C CNN
+F 1 "CAN2" V 5250 3700 50  0000 C CNN
+F 2 "kfhlib:PCB-PLUS" H 5150 3700 50  0001 C CNN
+F 3 "" H 5150 3700 50  0001 C CNN
+	1    5150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 J5
+U 1 1 5CCD323D
+P 6550 3700
+F 0 "J5" H 6550 3950 50  0000 C CNN
+F 1 "CAN3" V 6650 3700 50  0000 C CNN
+F 2 "kfhlib:PCB-PLUS" H 6550 3700 50  0001 C CNN
+F 3 "" H 6550 3700 50  0001 C CNN
+	1    6550 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 J6
+U 1 1 5CCD3261
+P 7950 3700
+F 0 "J6" H 7950 3950 50  0000 C CNN
+F 1 "CAN4" V 8050 3700 50  0000 C CNN
+F 2 "kfhlib:PCB-PLUS" H 7950 3700 50  0001 C CNN
+F 3 "" H 7950 3700 50  0001 C CNN
+	1    7950 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 J7
+U 1 1 5CCD328B
+P 9350 3700
+F 0 "J7" H 9350 3950 50  0000 C CNN
+F 1 "CAN5" V 9450 3700 50  0000 C CNN
+F 2 "kfhlib:PCB-PLUS" H 9350 3700 50  0001 C CNN
+F 3 "" H 9350 3700 50  0001 C CNN
+	1    9350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L DB9_MALE_MountingHoles J1
+U 1 1 5CCD32F0
+P 2900 2100
+F 0 "J1" H 2900 2750 50  0000 C CNN
+F 1 "h9bus" H 2900 2675 50  0000 C CNN
+F 2 "Connectors:DB9MD" H 2900 2100 50  0001 C CNN
+F 3 "" H 2900 2100 50  0001 C CNN
+	1    2900 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5CCD3335
+P 10000 3700
+F 0 "R1" V 10080 3700 50  0000 C CNN
+F 1 "120R" V 10000 3700 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 9930 3700 50  0001 C CNN
+F 3 "" H 10000 3700 50  0001 C CNN
+	1    10000 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Screw_Terminal_1x01 J14
+U 1 1 5CCD3EBF
+P 6250 5800
+F 0 "J14" H 6250 5950 50  0000 C TNN
+F 1 "EARTH" V 6100 5800 50  0000 C TNN
+F 2 "kfhlib:Screw_Terminal_M4" H 6250 5675 50  0001 C CNN
+F 3 "" H 6250 5700 50  0001 C CNN
+	1    6250 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L Earth #PWR01
+U 1 1 5CCD421B
+P 2300 2100
+F 0 "#PWR01" H 2300 1850 50  0001 C CNN
+F 1 "Earth" H 2300 1950 50  0001 C CNN
+F 2 "" H 2300 2100 50  0001 C CNN
+F 3 "" H 2300 2100 50  0001 C CNN
+	1    2300 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Earth #PWR02
+U 1 1 5CCD4280
+P 2900 2800
+F 0 "#PWR02" H 2900 2550 50  0001 C CNN
+F 1 "Earth" H 2900 2650 50  0001 C CNN
+F 2 "" H 2900 2800 50  0001 C CNN
+F 3 "" H 2900 2800 50  0001 C CNN
+	1    2900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR03
+U 1 1 5CCD4354
+P 2300 1700
+F 0 "#PWR03" H 2300 1450 50  0001 C CNN
+F 1 "Earth" H 2300 1550 50  0001 C CNN
+F 2 "" H 2300 1700 50  0001 C CNN
+F 3 "" H 2300 1700 50  0001 C CNN
+	1    2300 1700
+	0    1    1    0   
+$EndComp
+NoConn ~ 2600 2500
+NoConn ~ 2600 2400
+NoConn ~ 2600 2000
+NoConn ~ 2600 1900
+NoConn ~ 2600 1800
+$Comp
+L SW_DIP_x02 SW1
+U 1 1 5CCD45E3
+P 3050 3600
+F 0 "SW1" H 3050 3850 50  0000 C CNN
+F 1 "CAN1" H 3050 3450 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_DIP_x2_W7.62mm_Slide_LowProfile" H 3050 3600 50  0001 C CNN
+F 3 "" H 3050 3600 50  0001 C CNN
+	1    3050 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_DIP_x02 SW4
+U 1 1 5CCD49DA
+P 7250 3600
+F 0 "SW4" H 7250 3850 50  0000 C CNN
+F 1 "CAN4" H 7250 3450 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_DIP_x2_W7.62mm_Slide_LowProfile" H 7250 3600 50  0001 C CNN
+F 3 "" H 7250 3600 50  0001 C CNN
+	1    7250 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_DIP_x02 SW3
+U 1 1 5CCD4A1F
+P 5850 3600
+F 0 "SW3" H 5850 3850 50  0000 C CNN
+F 1 "CAN3" H 5850 3450 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_DIP_x2_W7.62mm_Slide_LowProfile" H 5850 3600 50  0001 C CNN
+F 3 "" H 5850 3600 50  0001 C CNN
+	1    5850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_DIP_x02 SW2
+U 1 1 5CCD4A65
+P 4450 3600
+F 0 "SW2" H 4450 3850 50  0000 C CNN
+F 1 "CAN2" H 4450 3450 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_DIP_x2_W7.62mm_Slide_LowProfile" H 4450 3600 50  0001 C CNN
+F 3 "" H 4450 3600 50  0001 C CNN
+	1    4450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_DIP_x02 SW5
+U 1 1 5CCD4D1E
+P 8650 3600
+F 0 "SW5" H 8650 3850 50  0000 C CNN
+F 1 "CAN5" H 8650 3450 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_DIP_x2_W7.62mm_Slide_LowProfile" H 8650 3600 50  0001 C CNN
+F 3 "" H 8650 3600 50  0001 C CNN
+	1    8650 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 2100 2600 2100
+Wire Wire Line
+	2300 1700 2600 1700
+Wire Wire Line
+	3350 3600 3400 3600
+Wire Wire Line
+	3400 3300 3400 3650
+Wire Wire Line
+	3400 3650 3550 3650
+Wire Wire Line
+	3350 3500 3500 3500
+Wire Wire Line
+	3500 3200 3500 3550
+Wire Wire Line
+	3500 3550 3550 3550
+Wire Wire Line
+	3550 3750 2600 3750
+Wire Wire Line
+	2600 3500 2600 4100
+Wire Wire Line
+	2600 3500 2750 3500
+Wire Wire Line
+	3550 3850 2700 3850
+Wire Wire Line
+	2700 3600 2700 4000
+Wire Wire Line
+	2700 3600 2750 3600
+Wire Wire Line
+	4750 3500 4900 3500
+Wire Wire Line
+	4900 3500 4900 4100
+Wire Wire Line
+	4900 3550 4950 3550
+Wire Wire Line
+	4750 3600 4800 3600
+Wire Wire Line
+	4800 3600 4800 4000
+Wire Wire Line
+	4800 3650 4950 3650
+Wire Wire Line
+	6150 3500 6300 3500
+Wire Wire Line
+	6300 3200 6300 3550
+Wire Wire Line
+	6300 3550 6350 3550
+Wire Wire Line
+	6150 3600 6200 3600
+Wire Wire Line
+	6200 3300 6200 3650
+Wire Wire Line
+	6200 3650 6350 3650
+Wire Wire Line
+	7550 3500 7700 3500
+Wire Wire Line
+	7700 3500 7700 4100
+Wire Wire Line
+	7700 3550 7750 3550
+Wire Wire Line
+	7550 3600 7600 3600
+Wire Wire Line
+	7600 3600 7600 4000
+Wire Wire Line
+	7600 3650 7750 3650
+Wire Wire Line
+	8950 3500 9100 3500
+Wire Wire Line
+	9100 3200 9100 3550
+Wire Wire Line
+	9100 3550 9150 3550
+Wire Wire Line
+	8950 3600 9000 3600
+Wire Wire Line
+	9000 3300 9000 3650
+Wire Wire Line
+	9000 3650 9150 3650
+Wire Wire Line
+	4000 3750 4950 3750
+Wire Wire Line
+	4000 3200 4000 3750
+Wire Wire Line
+	4000 3500 4150 3500
+Wire Wire Line
+	4100 3850 4950 3850
+Wire Wire Line
+	4100 3300 4100 3850
+Wire Wire Line
+	4100 3600 4150 3600
+Wire Wire Line
+	6350 3750 5400 3750
+Wire Wire Line
+	5400 3500 5400 4100
+Wire Wire Line
+	5400 3500 5550 3500
+Wire Wire Line
+	6350 3850 5500 3850
+Wire Wire Line
+	5500 3600 5500 4000
+Wire Wire Line
+	5500 3600 5550 3600
+Wire Wire Line
+	6800 3750 7750 3750
+Wire Wire Line
+	6800 3200 6800 3750
+Wire Wire Line
+	6800 3500 6950 3500
+Wire Wire Line
+	6900 3850 7750 3850
+Wire Wire Line
+	6900 3300 6900 3850
+Wire Wire Line
+	6900 3600 6950 3600
+Wire Wire Line
+	8200 3750 9150 3750
+Wire Wire Line
+	8200 3750 8200 3500
+Wire Wire Line
+	8200 3500 8350 3500
+Wire Wire Line
+	8300 3850 9150 3850
+Wire Wire Line
+	8300 3850 8300 3600
+Wire Wire Line
+	8300 3600 8350 3600
+Wire Wire Line
+	10150 3700 10250 3700
+Wire Wire Line
+	10250 3700 10250 4100
+Wire Wire Line
+	10250 4100 9050 4100
+Wire Wire Line
+	9050 4100 9050 3850
+Connection ~ 9050 3850
+Wire Wire Line
+	9850 3700 9750 3700
+Wire Wire Line
+	9750 3700 9750 4000
+Wire Wire Line
+	9750 4000 8950 4000
+Wire Wire Line
+	8950 4000 8950 3750
+Connection ~ 8950 3750
+Wire Wire Line
+	6800 3200 9100 3200
+Connection ~ 9100 3500
+Connection ~ 6800 3500
+Wire Wire Line
+	6900 3300 9000 3300
+Connection ~ 9000 3600
+Connection ~ 6900 3600
+Wire Wire Line
+	5500 4000 7600 4000
+Connection ~ 5500 3850
+Connection ~ 7600 3650
+Wire Wire Line
+	5400 4100 7700 4100
+Connection ~ 5400 3750
+Connection ~ 7700 3550
+Wire Wire Line
+	6300 3200 4000 3200
+Connection ~ 4000 3500
+Connection ~ 6300 3500
+Wire Wire Line
+	6200 3300 4100 3300
+Connection ~ 4100 3600
+Connection ~ 6200 3600
+Wire Wire Line
+	4900 4100 2600 4100
+Connection ~ 2600 3750
+Connection ~ 4900 3550
+Wire Wire Line
+	4800 4000 2700 4000
+Connection ~ 2700 3850
+Connection ~ 4800 3650
+Wire Wire Line
+	3500 3200 1950 3200
+Wire Wire Line
+	1950 3200 1950 3750
+Wire Wire Line
+	1950 3750 2150 3750
+Connection ~ 3500 3500
+Wire Wire Line
+	2150 3550 1950 3550
+Connection ~ 1950 3550
+Wire Wire Line
+	3400 3300 2050 3300
+Wire Wire Line
+	2050 3300 2050 3850
+Wire Wire Line
+	2050 3650 2150 3650
+Connection ~ 3400 3600
+Wire Wire Line
+	2050 3850 2150 3850
+Connection ~ 2050 3650
+Text Label 2050 3200 0    60   ~ 0
+CAN0+
+Text Label 2050 3300 0    60   ~ 0
+CAN0-
+Text Label 3300 4100 0    60   ~ 0
+CAN1+
+Text Label 3300 4000 0    60   ~ 0
+CAN1-
+Text Label 4650 3200 0    60   ~ 0
+CAN2+
+Text Label 4650 3300 0    60   ~ 0
+CAN2-
+Text Label 6000 4100 0    60   ~ 0
+CAN3+
+Text Label 6000 4000 0    60   ~ 0
+CAN3-
+Text Label 7500 3200 0    60   ~ 0
+CAN4+
+Text Label 7500 3300 0    60   ~ 0
+CAN4-
+Text Label 9250 4000 0    60   ~ 0
+CAN5+
+Text Label 9250 4100 0    60   ~ 0
+CAN5-
+Wire Wire Line
+	6250 6000 6250 6050
+$Comp
+L Screw_Terminal_1x01 J8
+U 1 1 5CCD987F
+P 2350 4350
+F 0 "J8" H 2350 4500 50  0000 C TNN
+F 1 "CAN0_SHLD" V 2200 4350 50  0000 C TNN
+F 2 "Wire_Pads:SolderWirePad_single_1-2mmDrill" H 2350 4225 50  0001 C CNN
+F 3 "" H 2350 4250 50  0001 C CNN
+	1    2350 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Earth #PWR04
+U 1 1 5CCD988B
+P 2350 4600
+F 0 "#PWR04" H 2350 4350 50  0001 C CNN
+F 1 "Earth" H 2350 4450 50  0001 C CNN
+F 2 "" H 2350 4600 50  0001 C CNN
+F 3 "" H 2350 4600 50  0001 C CNN
+	1    2350 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 4600 2350 4550
+$Comp
+L Screw_Terminal_1x01 J9
+U 1 1 5CCD9991
+P 3750 4350
+F 0 "J9" H 3750 4500 50  0000 C TNN
+F 1 "CAN1_SHLD" V 3600 4350 50  0000 C TNN
+F 2 "Wire_Pads:SolderWirePad_single_1-2mmDrill" H 3750 4225 50  0001 C CNN
+F 3 "" H 3750 4250 50  0001 C CNN
+	1    3750 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Earth #PWR05
+U 1 1 5CCD9997
+P 3750 4600
+F 0 "#PWR05" H 3750 4350 50  0001 C CNN
+F 1 "Earth" H 3750 4450 50  0001 C CNN
+F 2 "" H 3750 4600 50  0001 C CNN
+F 3 "" H 3750 4600 50  0001 C CNN
+	1    3750 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 4600 3750 4550
+$Comp
+L Screw_Terminal_1x01 J10
+U 1 1 5CCD99DF
+P 5150 4350
+F 0 "J10" H 5150 4500 50  0000 C TNN
+F 1 "CAN2_SHLD" V 5000 4350 50  0000 C TNN
+F 2 "Wire_Pads:SolderWirePad_single_1-2mmDrill" H 5150 4225 50  0001 C CNN
+F 3 "" H 5150 4250 50  0001 C CNN
+	1    5150 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Earth #PWR06
+U 1 1 5CCD99E5
+P 5150 4600
+F 0 "#PWR06" H 5150 4350 50  0001 C CNN
+F 1 "Earth" H 5150 4450 50  0001 C CNN
+F 2 "" H 5150 4600 50  0001 C CNN
+F 3 "" H 5150 4600 50  0001 C CNN
+	1    5150 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 4600 5150 4550
+$Comp
+L Screw_Terminal_1x01 J11
+U 1 1 5CCD9A46
+P 6500 4350
+F 0 "J11" H 6500 4500 50  0000 C TNN
+F 1 "CAN3_SHLD" V 6350 4350 50  0000 C TNN
+F 2 "Wire_Pads:SolderWirePad_single_1-2mmDrill" H 6500 4225 50  0001 C CNN
+F 3 "" H 6500 4250 50  0001 C CNN
+	1    6500 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Earth #PWR07
+U 1 1 5CCD9A4C
+P 6500 4600
+F 0 "#PWR07" H 6500 4350 50  0001 C CNN
+F 1 "Earth" H 6500 4450 50  0001 C CNN
+F 2 "" H 6500 4600 50  0001 C CNN
+F 3 "" H 6500 4600 50  0001 C CNN
+	1    6500 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 4600 6500 4550
+$Comp
+L Screw_Terminal_1x01 J12
+U 1 1 5CCD9A91
+P 7950 4350
+F 0 "J12" H 7950 4500 50  0000 C TNN
+F 1 "CAN4_SHLD" V 7800 4350 50  0000 C TNN
+F 2 "Wire_Pads:SolderWirePad_single_1-2mmDrill" H 7950 4225 50  0001 C CNN
+F 3 "" H 7950 4250 50  0001 C CNN
+	1    7950 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Earth #PWR08
+U 1 1 5CCD9A97
+P 7950 4600
+F 0 "#PWR08" H 7950 4350 50  0001 C CNN
+F 1 "Earth" H 7950 4450 50  0001 C CNN
+F 2 "" H 7950 4600 50  0001 C CNN
+F 3 "" H 7950 4600 50  0001 C CNN
+	1    7950 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 4600 7950 4550
+$Comp
+L Screw_Terminal_1x01 J13
+U 1 1 5CCD9AE1
+P 9350 4350
+F 0 "J13" H 9350 4500 50  0000 C TNN
+F 1 "CAN5_SHLD" V 9200 4350 50  0000 C TNN
+F 2 "Wire_Pads:SolderWirePad_single_1-2mmDrill" H 9350 4225 50  0001 C CNN
+F 3 "" H 9350 4250 50  0001 C CNN
+	1    9350 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Earth #PWR09
+U 1 1 5CCD9AE7
+P 9350 4600
+F 0 "#PWR09" H 9350 4350 50  0001 C CNN
+F 1 "Earth" H 9350 4450 50  0001 C CNN
+F 2 "" H 9350 4600 50  0001 C CNN
+F 3 "" H 9350 4600 50  0001 C CNN
+	1    9350 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 4600 9350 4550
+Wire Wire Line
+	2900 2700 2900 2800
+$Comp
+L GDT GDT4
+U 1 1 5CCDAD58
+P 3200 5600
+F 0 "GDT4" H 3200 5760 50  0000 C CNN
+F 1 "CG-90L" H 3200 5425 50  0000 C CNN
+F 2 "Capacitors_THT:C_Disc_D7.5mm_W5.0mm_P10.00mm" H 3200 5540 50  0001 C CNN
+F 3 "" V 3200 5600 50  0001 C CNN
+	1    3200 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GDT GDT3
+U 1 1 5CCDB0DE
+P 2600 5600
+F 0 "GDT3" H 2600 5760 50  0000 C CNN
+F 1 "CG-90L" H 2600 5425 50  0000 C CNN
+F 2 "Capacitors_THT:C_Disc_D7.5mm_W5.0mm_P10.00mm" H 2600 5540 50  0001 C CNN
+F 3 "" V 2600 5600 50  0001 C CNN
+	1    2600 5600
+	1    0    0    -1  
+$EndComp
+Text Label 2100 5100 0    60   ~ 0
+CAN0+
+Text Label 3700 5100 2    60   ~ 0
+CAN0-
+$Comp
+L Earth #PWR010
+U 1 1 5CCDB465
+P 2900 5700
+F 0 "#PWR010" H 2900 5450 50  0001 C CNN
+F 1 "Earth" H 2900 5550 50  0001 C CNN
+F 2 "" H 2900 5700 50  0001 C CNN
+F 3 "" H 2900 5700 50  0001 C CNN
+	1    2900 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GDT GDT5
+U 1 1 5CCDB53F
+P 2600 6100
+F 0 "GDT5" H 2600 6260 50  0000 C CNN
+F 1 "CG-90L" H 2600 5925 50  0000 C CNN
+F 2 "Capacitors_THT:C_Disc_D7.5mm_W5.0mm_P10.00mm" H 2600 6040 50  0001 C CNN
+F 3 "" V 2600 6100 50  0001 C CNN
+	1    2600 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GDT GDT6
+U 1 1 5CCDB59D
+P 3200 6100
+F 0 "GDT6" H 3200 6260 50  0000 C CNN
+F 1 "CG-90L" H 3200 5925 50  0000 C CNN
+F 2 "Capacitors_THT:C_Disc_D7.5mm_W5.0mm_P10.00mm" H 3200 6040 50  0001 C CNN
+F 3 "" V 3200 6100 50  0001 C CNN
+	1    3200 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR011
+U 1 1 5CCDB700
+P 2900 6200
+F 0 "#PWR011" H 2900 5950 50  0001 C CNN
+F 1 "Earth" H 2900 6050 50  0001 C CNN
+F 2 "" H 2900 6200 50  0001 C CNN
+F 3 "" H 2900 6200 50  0001 C CNN
+	1    2900 6200
+	1    0    0    -1  
+$EndComp
+Text Label 3700 6600 2    60   ~ 0
+CAN3-
+Text Label 2100 6600 0    60   ~ 0
+CAN3+
+$Comp
+L GDT GDT1
+U 1 1 5CCDBA94
+P 2600 5100
+F 0 "GDT1" H 2600 5260 50  0000 C CNN
+F 1 "CG-90L" H 2600 4925 50  0000 C CNN
+F 2 "Capacitors_THT:C_Disc_D7.5mm_W5.0mm_P10.00mm" H 2600 5040 50  0001 C CNN
+F 3 "" V 2600 5100 50  0001 C CNN
+	1    2600 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GDT GDT2
+U 1 1 5CCDBCB4
+P 3200 5100
+F 0 "GDT2" H 3200 5260 50  0000 C CNN
+F 1 "CG-90L" H 3200 4925 50  0000 C CNN
+F 2 "Capacitors_THT:C_Disc_D7.5mm_W5.0mm_P10.00mm" H 3200 5040 50  0001 C CNN
+F 3 "" V 3200 5100 50  0001 C CNN
+	1    3200 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GDT GDT7
+U 1 1 5CCDBD1C
+P 2600 6600
+F 0 "GDT7" H 2600 6760 50  0000 C CNN
+F 1 "CG-90L" H 2600 6425 50  0000 C CNN
+F 2 "Capacitors_THT:C_Disc_D7.5mm_W5.0mm_P10.00mm" H 2600 6540 50  0001 C CNN
+F 3 "" V 2600 6600 50  0001 C CNN
+	1    2600 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GDT GDT8
+U 1 1 5CCDBD8A
+P 3200 6600
+F 0 "GDT8" H 3200 6760 50  0000 C CNN
+F 1 "CG-90L" H 3200 6425 50  0000 C CNN
+F 2 "Capacitors_THT:C_Disc_D7.5mm_W5.0mm_P10.00mm" H 3200 6540 50  0001 C CNN
+F 3 "" V 3200 6600 50  0001 C CNN
+	1    3200 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GDT GDT10
+U 1 1 5CCDBDF4
+P 3200 7100
+F 0 "GDT10" H 3200 7260 50  0000 C CNN
+F 1 "CG-90L" H 3200 6925 50  0000 C CNN
+F 2 "Capacitors_THT:C_Disc_D7.5mm_W5.0mm_P10.00mm" H 3200 7040 50  0001 C CNN
+F 3 "" V 3200 7100 50  0001 C CNN
+	1    3200 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GDT GDT9
+U 1 1 5CCDBE64
+P 2600 7100
+F 0 "GDT9" H 2600 7260 50  0000 C CNN
+F 1 "CG-90L" H 2600 6925 50  0000 C CNN
+F 2 "Capacitors_THT:C_Disc_D7.5mm_W5.0mm_P10.00mm" H 2600 7040 50  0001 C CNN
+F 3 "" V 2600 7100 50  0001 C CNN
+	1    2600 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR012
+U 1 1 5CCDBED9
+P 2900 6700
+F 0 "#PWR012" H 2900 6450 50  0001 C CNN
+F 1 "Earth" H 2900 6550 50  0001 C CNN
+F 2 "" H 2900 6700 50  0001 C CNN
+F 3 "" H 2900 6700 50  0001 C CNN
+	1    2900 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR013
+U 1 1 5CCDBF41
+P 2900 7200
+F 0 "#PWR013" H 2900 6950 50  0001 C CNN
+F 1 "Earth" H 2900 7050 50  0001 C CNN
+F 2 "" H 2900 7200 50  0001 C CNN
+F 3 "" H 2900 7200 50  0001 C CNN
+	1    2900 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR014
+U 1 1 5CCDBFA9
+P 2900 5200
+F 0 "#PWR014" H 2900 4950 50  0001 C CNN
+F 1 "Earth" H 2900 5050 50  0001 C CNN
+F 2 "" H 2900 5200 50  0001 C CNN
+F 3 "" H 2900 5200 50  0001 C CNN
+	1    2900 5200
+	1    0    0    -1  
+$EndComp
+Text Label 3700 5600 2    60   ~ 0
+CAN1-
+Text Label 2100 5600 0    60   ~ 0
+CAN1+
+Text Label 3700 6100 2    60   ~ 0
+CAN2-
+Text Label 2100 7100 0    60   ~ 0
+CAN4+
+Text Label 3700 7100 2    60   ~ 0
+CAN4-
+Text Label 2100 6100 0    60   ~ 0
+CAN2+
+Wire Wire Line
+	2800 5100 3000 5100
+Wire Wire Line
+	2900 5200 2900 5100
+Connection ~ 2900 5100
+Wire Wire Line
+	2100 5100 2400 5100
+Wire Wire Line
+	3400 5100 3700 5100
+Wire Wire Line
+	3700 5600 3400 5600
+Wire Wire Line
+	2800 5600 3000 5600
+Wire Wire Line
+	2400 5600 2100 5600
+Wire Wire Line
+	2900 5700 2900 5600
+Connection ~ 2900 5600
+Wire Wire Line
+	3700 6100 3400 6100
+Wire Wire Line
+	2100 6100 2400 6100
+Wire Wire Line
+	2800 6100 3000 6100
+Wire Wire Line
+	2900 6200 2900 6100
+Connection ~ 2900 6100
+Wire Wire Line
+	2100 6600 2400 6600
+Wire Wire Line
+	2800 6600 3000 6600
+Wire Wire Line
+	3700 6600 3400 6600
+Wire Wire Line
+	2900 6700 2900 6600
+Connection ~ 2900 6600
+Wire Wire Line
+	3700 7100 3400 7100
+Wire Wire Line
+	2800 7100 3000 7100
+Wire Wire Line
+	2400 7100 2100 7100
+Wire Wire Line
+	2900 7200 2900 7100
+Connection ~ 2900 7100
+Text Label 2300 2200 0    60   ~ 0
+CAN0+
+Text Label 2300 2300 0    60   ~ 0
+CAN0-
+Wire Wire Line
+	2300 2200 2600 2200
+Wire Wire Line
+	2600 2300 2300 2300
+$Comp
+L PWR_FLAG #FLG015
+U 1 1 5CCDF076
+P 5000 6800
+F 0 "#FLG015" H 5000 6875 50  0001 C CNN
+F 1 "PWR_FLAG" H 5000 6950 50  0000 C CNN
+F 2 "" H 5000 6800 50  0001 C CNN
+F 3 "" H 5000 6800 50  0001 C CNN
+	1    5000 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR016
+U 1 1 5CCDF1BE
+P 5000 6900
+F 0 "#PWR016" H 5000 6650 50  0001 C CNN
+F 1 "Earth" H 5000 6750 50  0001 C CNN
+F 2 "" H 5000 6900 50  0001 C CNN
+F 3 "" H 5000 6900 50  0001 C CNN
+	1    5000 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 6800 5000 6900
+$Comp
+L Earth #PWR017
+U 1 1 5CCD4140
+P 6250 6050
+F 0 "#PWR017" H 6250 5800 50  0001 C CNN
+F 1 "Earth" H 6250 5900 50  0001 C CNN
+F 2 "" H 6250 6050 50  0001 C CNN
+F 3 "" H 6250 6050 50  0001 C CNN
+	1    6250 6050
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
