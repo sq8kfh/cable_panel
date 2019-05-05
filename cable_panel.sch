@@ -39,7 +39,7 @@ Sheet 1 1
 Title "cable panel"
 Date "2019-05-04"
 Rev "1"
-Comp ""
+Comp "SQ8KFH"
 Comment1 ""
 Comment2 ""
 Comment3 ""
