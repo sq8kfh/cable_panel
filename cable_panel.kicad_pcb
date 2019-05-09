@@ -14,8 +14,10 @@
 
   (page A4)
   (title_block
+    (title "cable panel")
     (date 2019-05-05)
-    (rev 1)
+    (rev 1.0)
+    (company SQ8KFH)
   )
 
   (layers
